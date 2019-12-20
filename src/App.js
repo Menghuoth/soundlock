@@ -1,15 +1,19 @@
 import React from 'react';
+import {BrowserRouter,Switch,Route} from 'react-router-dom';
 
 // import logo from './logo.svg';
 import './App.css';
 
-import Nav from './Components/Nav';
+import HomePage from './Page/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-    </div>
+    <BrowserRouter>
+    <Switch>
+      <Route to="/" component={HomePage} />
+      {/* <Route to="/" component={AlbumPage} /> */}
+    </Switch>
+    </BrowserRouter>
   );
 }
 
