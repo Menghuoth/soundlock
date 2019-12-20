@@ -1,8 +1,8 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import bg1 from '/Users/menghout/Documents/GitHub/Music-Website/soundlock/src/images/bg1.jpg';
-import bg2 from '/Users/menghout/Documents/GitHub/Music-Website/soundlock/src/images/bg2.jpg';
-import bg3 from '/Users/menghout/Documents/GitHub/Music-Website/soundlock/src/images/bg3.jpg';
+import bg1 from './../images/bg1.jpg';
+import bg2 from './../images/bg2.jpg';
+import bg3 from './../images/bg3.jpg';
 
 import {Container, Row, Col} from 'reactstrap';
 
